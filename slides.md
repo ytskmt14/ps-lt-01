@@ -14,13 +14,6 @@ fonts:
 
 yuta sakamoto
 
-<div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
-
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
@@ -38,14 +31,6 @@ layout: two-cols
       <p>エンジニア５年生（2017年卒）</p>
       <p>ＰＳ３年生（2019年4月〜）</p>
       <p>ステキャン作った人</p>
-      <a
-        href="https://step-up-camp-572f4.firebaseapp.com"
-        target="_blank"
-        alt="suc"
-        class="text-xl !border-none"
-      >
-        <mdi-web /> ステキャンweb
-      </a>
     </div>
   </div>
 </template>
@@ -68,8 +53,10 @@ layout: two-cols
     font: 'Lato'
   }
 </style>
-
-
+---
+layout: iframe
+url: https://step-up-camp-572f4.firebaseapp.com/
+---
 
 ---
 layout: two-cols
@@ -130,3 +117,21 @@ layout: two-cols
 </style>
 
 ---
+layout: cover
+---
+<h1 class="text-center">おまけ</h1>
+
+---
+layout: iframe-right
+url: https://ja.sli.dev/
+---
+# How to create this presentation
+
+[https://ja.sli.dev/](https://ja.sli.dev/)
+---
+layout: iframe-right
+url: https://github.com/ytskmt14/ps-lt-01/
+---
+# GitHub Repository
+
+[https://github.com/ytskmt14/ps-lt-01/](https://github.com/ytskmt14/ps-lt-01/)
